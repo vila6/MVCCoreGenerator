@@ -1,0 +1,17 @@
+input{ color: black; font-family: Verdana; font-size: 10px; }
+#cont{ width: 693px; margin: 0 auto 0 auto; text-align: left;}
+#encabezado{ height: 32px; margin-bottom: 40px; width: 693px;}
+/*los textos del encabezado lo dejamos para mas adelante
+porque tenemos que hacer reemplazo de texto por imagen*/
+#contenido{ width: 500px; float: left; margin-bottom: 70px;}
+ 
+#contenido h2{ font-size: 18px; color: #464545; font-weight: normal }
+#contenido h2 span{ color: #a7a7a7; } /*esto nos sirve para cambiar
+ el color a gris en los titulos cuando colocamos la etiqueta span!*/
+#contenido p{font-size: 13px;}
+ 
+#menu{ width: 180px; float: left; text-transform: uppercase}
+#pie{ clear: both; height: 296px;}
+#pie h2{ font-size: 18px; color: #464545; font-weight: normal }
+#pie h2 span{ color: #a7a7a7; }
+#pie p{ text-align: center; font-size: 13px; padding-top: 10px; clear: both;}

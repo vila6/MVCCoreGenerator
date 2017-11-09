@@ -1,0 +1,33 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#main {
+   height: 80%;
+   display: -webkit-flex;
+   display: flex;
+   flex-flow: row;
+}
+#main article {
+	background: #CFC;
+	flex: 3 1 80%;
+	order: 2;
+	font-size: 12px
+}
+#main nav {
+	background: #CCF;
+	flex: 1 6 20%;
+	order: 1;
+}
+#main aside {
+	background: #CCF;
+	flex: 1 6 20%;
+	order: 3;
+}
+header, footer {
+	display: block;
+	min-height: 10%;
+	background: #FC6;
+}
